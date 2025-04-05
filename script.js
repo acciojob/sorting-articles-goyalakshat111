@@ -12,7 +12,7 @@ const sortedBands = bands
 
 
 let list = document.createElement("ul");
-list.id="band";
+list.id="bands";
 
 for(let t of sortedBands){
 	let li = document.createElement("li");
